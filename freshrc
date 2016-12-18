@@ -30,7 +30,7 @@ fresh zsh-users/zsh-completions src/_rails --file=completion/_rails
 fresh zsh-users/zsh-completions src/_rspec --file=completion/_rspec
 
 fresh shell/path.sh
-fresh shell/aliases/*
+fresh shell/aliases/\*
 
 # General config files
 fresh-options --file
@@ -57,19 +57,16 @@ fresh-options
 fresh sivel/speedtest-cli speedtest_cli.py --bin=~/bin/speedtest
 
 ### NeoVim
-fresh-options --file=~/.comfig/nvim/init.vim --marker=\"
-  fresh twe4ked/dotfiles vim/vundle_before.vim
-
+fresh-options --file=~/.config/nvim/init.vim --marker=\"
   fresh vim/plug.vim
-  fresh vim/plugins/*
+  fresh vim/plugins/\*
   fresh vim/theme.vim
-  fresh vim/file_type.vim
-  fresh vim/aliases.vim
+  fresh vim/file_types.vim
   fresh vim/splits.vim
   fresh vim/whitespace_cleanup.vim
   fresh vim/globals.vim
 
   fresh jasoncodes/dotfiles vim/config/auto_mkdir.vim
-  fresh jasoncodes/dotfiles vim/plugins/tabular.vim
   fresh jasoncodes/dotfiles vim/config/undo.vim
 fresh-options
+fresh junegunn/vim-plug plug.vim --file=~/.config/nvim/autoload/plug.vim

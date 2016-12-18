@@ -1,5 +1,4 @@
 [user]
-# Please adapt and uncomment the following lines:
   email = gabriel@gizotti.com
   name = Gabriel Gizotti
 [color]
@@ -7,12 +6,12 @@
 [push]
   default = simple
 [core]
-  excludesfile = ~/.gitignore_global
   ignorecase = false
   editor = vim
+  excludesfile = /Users/gabrielgizotti/.gitignore_global
 [difftool "sourcetree"]
   cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-  path =
+  path = 
 [mergetool "sourcetree"]
   cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
   trustExitCode = true
