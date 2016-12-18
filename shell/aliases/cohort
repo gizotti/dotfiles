@@ -1,0 +1,7 @@
+alias carr='cd ~/Dev/cohortarrivals'
+alias ccore='cd ~/Dev/cohort-core'
+alias cflow='cd ~/Dev/cohortflow'
+alias cpay='cd ~/Dev/cohortpay'
+alias csim='cd ~/Dev/cohortsim'
+alias ctrans='cd ~/Dev/cohortpay-transact'
+alias oshc='cd ~/Dev/ohscaustralia'

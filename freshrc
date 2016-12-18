@@ -1,0 +1,74 @@
+# Jon changed fresh bin so git shallow pulls repos
+fresh JonathonMA/fresh bin/fresh --bin
+fresh freshshell/fresh contrib/source-build.sh --file=~/.zshrc
+
+# Shell
+fresh shell/zsh/completion/init
+fresh shell/zsh/options
+
+# If in doubt check
+# https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git
+fresh robbyrussell/oh-my-zsh plugins/git/git.plugin.zsh
+fresh robbyrussell/oh-my-zsh plugins/compleat/compleat.plugin.zsh
+fresh robbyrussell/oh-my-zsh lib/completion.zsh
+fresh robbyrussell/oh-my-zsh lib/directories.zsh
+fresh robbyrussell/oh-my-zsh lib/git.zsh
+fresh robbyrussell/oh-my-zsh lib/key-bindings.zsh
+fresh robbyrussell/oh-my-zsh lib/key-bindings.zsh
+fresh robbyrussell/oh-my-zsh lib/misc.zsh
+fresh robbyrussell/oh-my-zsh lib/grep.zsh
+fresh robbyrussell/oh-my-zsh lib/nvm.zsh
+fresh robbyrussell/oh-my-zsh lib/spectrum.zsh
+fresh robbyrussell/oh-my-zsh lib/theme-and-appearance.zsh
+# TODO: Change to my theme once everything is set with fresh
+fresh robbyrussell/oh-my-zsh themes/robbyrussell.zsh-theme
+
+fresh freshshell/fresh contrib/completion/fresh-completion.zsh --file=completion/_fresh
+fresh zsh-users/zsh-completions src/_gist --file=completion/_gist
+fresh zsh-users/zsh-completions src/_nvm --file=completion/_nvm
+fresh zsh-users/zsh-completions src/_rails --file=completion/_rails
+fresh zsh-users/zsh-completions src/_rspec --file=completion/_rspec
+
+fresh shell/aliases/*
+
+# General config files
+fresh-options --file
+  #fresh config/ackrc
+  #fresh config/ctags
+  #fresh config/gemrc
+  #fresh config/irbrc
+  #fresh config/npmrc
+  #fresh config/rspec
+  fresh config/osx
+fresh-options
+
+# Git
+fresh-options --file=~/.gitignore_global --marker
+  fresh github/gitignore Global/Vim.gitignore
+  fresh github/gitignore Global/macOS.gitignore
+  fresh github/gitignore Global/Tags.gitignore
+fresh-options
+
+fresh-options --file=~/.gitconfig --marker
+  fresh git/config
+fresh-options
+
+fresh sivel/speedtest-cli speedtest_cli.py --bin=~/bin/speedtest
+
+### NeoVim
+fresh-options --file=~/.comfig/nvim/init.vim --marker=\"
+  fresh twe4ked/dotfiles vim/vundle_before.vim
+
+  fresh vim/plug.vim
+  fresh vim/plugins/*
+  fresh vim/theme.vim
+  fresh vim/file_type.vim
+  fresh vim/aliases.vim
+  fresh vim/splits.vim
+  fresh vim/whitespace_cleanup.vim
+  fresh vim/globals.vim
+
+  fresh jasoncodes/dotfiles vim/config/auto_mkdir.vim
+  fresh jasoncodes/dotfiles vim/plugins/tabular.vim
+  fresh jasoncodes/dotfiles vim/config/undo.vim
+fresh-options
