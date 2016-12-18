@@ -34,12 +34,8 @@ fresh shell/aliases/\*
 
 # General config files
 fresh-options --file
-  #fresh config/ackrc
-  #fresh config/ctags
-  #fresh config/gemrc
-  #fresh config/irbrc
-  #fresh config/npmrc
-  #fresh config/rspec
+  fresh config/irbrc
+  fresh config/rspec
   fresh config/osx
 fresh-options
 
