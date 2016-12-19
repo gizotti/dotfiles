@@ -1,4 +1,5 @@
 "Neomake
+autocmd! BufWritePost * Neomake
 
 let g:neomake_html_tidy_ignore_errors=[" proprietary attribute \"ng-"]
 let g:neomake_mode_map={ 'mode': 'active',
