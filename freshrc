@@ -9,19 +9,18 @@ fresh shell/zsh/options
 # If in doubt check
 # https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git
 fresh robbyrussell/oh-my-zsh plugins/git/git.plugin.zsh
-fresh robbyrussell/oh-my-zsh plugins/compleat/compleat.plugin.zsh
+fresh robbyrussell/oh-my-zsh plugins/rbenv/rbenv.plugin.zsh
+fresh robbyrussell/oh-my-zsh lib/functions.zsh
 fresh robbyrussell/oh-my-zsh lib/completion.zsh
 fresh robbyrussell/oh-my-zsh lib/directories.zsh
 fresh robbyrussell/oh-my-zsh lib/git.zsh
-fresh robbyrussell/oh-my-zsh lib/key-bindings.zsh
 fresh robbyrussell/oh-my-zsh lib/key-bindings.zsh
 fresh robbyrussell/oh-my-zsh lib/misc.zsh
 fresh robbyrussell/oh-my-zsh lib/grep.zsh
 fresh robbyrussell/oh-my-zsh lib/nvm.zsh
 fresh robbyrussell/oh-my-zsh lib/spectrum.zsh
 fresh robbyrussell/oh-my-zsh lib/theme-and-appearance.zsh
-# TODO: Change to my theme once everything is set with fresh
-fresh robbyrussell/oh-my-zsh themes/robbyrussell.zsh-theme
+fresh denysdovhan/spaceship-zsh-theme spaceship.zsh
 
 fresh freshshell/fresh contrib/completion/fresh-completion.zsh --file=completion/_fresh
 fresh zsh-users/zsh-completions src/_gist --file=completion/_gist
@@ -30,11 +29,13 @@ fresh zsh-users/zsh-completions src/_rails --file=completion/_rails
 fresh zsh-users/zsh-completions src/_rspec --file=completion/_rspec
 
 fresh shell/path.sh
+fresh shell/rbenv.sh
 fresh shell/aliases/\*
 
 # General config files
 fresh-options --file
   fresh config/irbrc
+  fresh config/gemrc
   fresh config/rspec
   fresh config/osx
 fresh-options

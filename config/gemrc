@@ -1,0 +1,6 @@
+install: --env-shebang
+:sources:
+- http://rubygems.org
+:backtrace: false
+:bulk_threshold: 1000
+update: --env-shebang
