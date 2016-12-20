@@ -13,5 +13,6 @@ let g:neomake_style_error_symbol = '✗'
 let g:neomake_style_warning_symbol = '⚠'
 let g:neomake_aggregate_errors = 1
 let g:neomake_javascript_makers = ['eslint']
+let g:neomake_javascript_eslint_exec = '/Users/gabrielgizotti/.nvm/versions/node/v5.12.0/bin/eslint'
 let g:neomake_ruby_makers = ['mri', 'rubocop']
-"let g:neomake_javascript_eslint_exec = '/Users/ric/.nvm/versions/node/v6.2.2/bin/eslint'
+let g:neomake_elixir_makers = ['mix']
