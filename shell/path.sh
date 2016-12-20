@@ -5,7 +5,7 @@ function append_path() {
 }
 
 append_path "/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-# TODO: Properly setup go
-#append_path "/usr/local/opt/go/libexec/bin"
+append_path "/usr/local/opt/go/libexec/bin"
+append_path "/usr/local/opt/coreutils/libexec/gnubin"
 
 unset append_path
