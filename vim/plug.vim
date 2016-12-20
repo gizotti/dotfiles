@@ -33,6 +33,8 @@ Plug 'tpope/vim-rails'
 Plug 'tpope/vim-rbenv'
 Plug 'tpope/vim-surround'
 Plug 'vim-scripts/matchit.zip'
+Plug 'pangloss/vim-javascript'
+Plug 'jambonrose/vim-jsx'
 
 " Add plugins to &runtimepath
 call plug#end()
