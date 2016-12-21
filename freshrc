@@ -30,6 +30,7 @@ fresh zsh-users/zsh-completions src/_rspec --file=completion/_rspec
 
 fresh shell/path.sh
 fresh shell/rbenv.sh
+fresh shell/nvm.sh
 fresh shell/aliases/\*
 
 # General config files
