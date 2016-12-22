@@ -68,3 +68,4 @@ fresh-options --file=~/.config/nvim/init.vim --marker=\"
   fresh jasoncodes/dotfiles vim/config/undo.vim
 fresh-options
 fresh junegunn/vim-plug plug.vim --file=~/.config/nvim/autoload/plug.vim
+fresh lucascaton/vimfiles fonts/Monaco+for+Powerline.otf --file=~/Library/Fonts/Monaco+for+Powerline.otf
