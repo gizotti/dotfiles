@@ -1,2 +1,2 @@
 alias vim='nvim'
-alias git='hub'
+# alias git='hub'
