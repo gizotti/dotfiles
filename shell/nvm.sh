@@ -1,4 +1,2 @@
- export NVM_DIR="$HOME/.nvm"
- if [ -f /usr/local/opt/nvm.sh ]; then
-   source "/usr/local/opt/nvm.sh"
- fi
+export NVM_DIR="$HOME/.nvm"
+source "/usr/local/opt/nvm/nvm.sh"
