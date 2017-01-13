@@ -36,6 +36,7 @@ Plug 'vim-scripts/matchit.zip'
 Plug 'pangloss/vim-javascript'
 Plug 'jambonrose/vim-jsx'
 Plug 'elixir-lang/vim-elixir'
+Plug 'nathanaelkane/vim-indent-guides'
 
 " Add plugins to &runtimepath
 call plug#end()
