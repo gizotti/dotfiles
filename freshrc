@@ -29,7 +29,7 @@ fresh zsh-users/zsh-completions src/_rails --file=completion/_rails
 fresh zsh-users/zsh-completions src/_rspec --file=completion/_rspec
 
 fresh shell/path.sh
-fresh shell/rbenv.sh
+fresh shell/rvm.sh
 fresh shell/nvm.sh
 fresh shell/aliases/\*
 
