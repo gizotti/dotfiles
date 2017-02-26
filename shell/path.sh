@@ -4,8 +4,16 @@ function append_path() {
   fi
 }
 
+function prepend_path() {
+  if [ -d "$1" ]; then
+    PATH="$1:$PATH"
+  fi
+}
+
 append_path "/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 append_path "/usr/local/opt/go/libexec/bin"
 append_path "/usr/local/opt/coreutils/libexec/gnubin"
+prepend_path "$HOME/Library/Haskell/bin"
 
 unset append_path
+unset prepend_path
