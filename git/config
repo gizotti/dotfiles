@@ -17,3 +17,12 @@
   trustExitCode = true
 [github]
   user = gizotti
+[alias]
+  # Delete all local branches but master and the current one, only if they are fully merged with master.
+  br-del-all = "!f(){\
+    git branch | grep -v "master" | grep -v ^* | xargs git branch -d;\
+  }; f"
+  # Delete all local branches but master and the current one.
+  br-del-all-f = "!f(){\
+    git branch | grep -v "master" | grep -v ^* | xargs git branch -D;\
+  }; f"
