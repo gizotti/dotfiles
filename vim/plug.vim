@@ -39,6 +39,7 @@ Plug 'elixir-lang/vim-elixir'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'thoughtbot/vim-rspec'
 Plug 'neovimhaskell/haskell-vim'
+Plug 'godlygeek/tabular'
 
 " Add plugins to &runtimepath
 call plug#end()
