@@ -37,7 +37,6 @@ Plug 'pangloss/vim-javascript'
 Plug 'jambonrose/vim-jsx'
 Plug 'elixir-lang/vim-elixir'
 Plug 'nathanaelkane/vim-indent-guides'
-Plug 'thoughtbot/vim-rspec'
 Plug 'neovimhaskell/haskell-vim'
 
 " Add plugins to &runtimepath
