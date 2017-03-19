@@ -1,8 +1,5 @@
 filetype plugin indent on
 
-" space as leader
-let mapleader=","
-
 " Disable annoying beep
 set visualbell
 
