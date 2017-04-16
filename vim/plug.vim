@@ -38,6 +38,7 @@ Plug 'jambonrose/vim-jsx'
 Plug 'elixir-lang/vim-elixir'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'neovimhaskell/haskell-vim'
+Plug 'joukevandermaas/vim-ember-hbs'
 
 " Add plugins to &runtimepath
 call plug#end()
