@@ -31,6 +31,7 @@ fresh zsh-users/zsh-completions src/_rspec --file=completion/_rspec
 fresh shell/path.sh
 fresh shell/ruby_version_manager.sh
 fresh shell/nvm.sh
+fresh shell/android.sh
 fresh shell/aliases/\*
 
 # General config files
