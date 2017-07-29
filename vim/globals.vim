@@ -65,3 +65,6 @@ nmap N Nzz
 " A trick for when you forgot to sudo before editing a file that requires root privileges (typically /etc/hosts).
 " This lets you use w!! to do that after you opened the file already:
 cmap w!! w !sudo tee % >/dev/null
+
+" Make backspace work like most apps
+set backspace=indent,eol,start
