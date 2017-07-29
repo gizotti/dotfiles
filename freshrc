@@ -57,7 +57,7 @@ fresh-options
 fresh sivel/speedtest-cli speedtest_cli.py --bin=~/bin/speedtest
 
 ### NeoVim
-fresh-options --file=~/.config/nvim/init.vim --marker=\"
+fresh-options --file=~/.vim/vimrc --marker=\"
   fresh vim/plug.vim
   fresh vim/plugins/\*
   fresh vim/theme.vim
@@ -69,4 +69,4 @@ fresh-options --file=~/.config/nvim/init.vim --marker=\"
   fresh jasoncodes/dotfiles vim/config/auto_mkdir.vim
   fresh jasoncodes/dotfiles vim/config/undo.vim
 fresh-options
-fresh junegunn/vim-plug plug.vim --file=~/.config/nvim/autoload/plug.vim
+fresh junegunn/vim-plug plug.vim --file=~/.vim/autoload/plug.vim
