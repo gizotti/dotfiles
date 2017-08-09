@@ -7,7 +7,7 @@ let g:neomake_mode_map={ 'mode': 'active',
                          \ 'passive_filetypes': ['html'] }
 let g:neomake_always_populate_loc_list=1
 let g:neomake_list_height = 5
-let g:neomake_open_list = 1
+let g:neomake_open_list = 0
 
 let g:neomake_error_sign={'text': '✗✗', 'texthl': 'NeomakeErrorMsg'}
 let g:neomake_style_error_sign={'text': '✗', 'texthl': 'NeomakeStyleErrorMsg'}
