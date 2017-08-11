@@ -57,7 +57,7 @@ fresh-options
 
 fresh sivel/speedtest-cli speedtest_cli.py --bin=~/bin/speedtest
 
-### NeoVim
+### Vim
 fresh-options --file=~/.vim/vimrc --marker=\"
   fresh vim/plug.vim
   fresh vim/plugins/\*
