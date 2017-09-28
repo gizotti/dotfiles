@@ -1,7 +1,7 @@
 " ┌───────────────────────────────────┐
 " │               Theme               │
 " └───────────────────────────────────┘
-set guifont=Monaco\ for\ Powerline:h20
+set guifont=Roboto\ Mono\ Light\ for\ Powerline:h16
 
 " Syntax on
 syntax enable
