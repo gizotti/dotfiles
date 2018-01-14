@@ -35,6 +35,7 @@ fresh shell/android.sh
 fresh shell/spaceship_config.sh
 fresh shell/reinteractive.sh
 fresh shell/gpg.sh
+fresh shell/elasticsearch.sh
 fresh shell/aliases/\*
 
 # General config files
