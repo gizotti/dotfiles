@@ -20,7 +20,9 @@ fresh robbyrussell/oh-my-zsh lib/grep.zsh
 fresh robbyrussell/oh-my-zsh lib/nvm.zsh
 fresh robbyrussell/oh-my-zsh lib/spectrum.zsh
 fresh robbyrussell/oh-my-zsh lib/theme-and-appearance.zsh
-fresh denysdovhan/spaceship-zsh-theme spaceship.zsh
+fresh denysdovhan/spaceship-prompt sections --file=sections/
+fresh denysdovhan/spaceship-prompt lib --file=lib/
+fresh denysdovhan/spaceship-prompt spaceship.zsh
 
 fresh freshshell/fresh contrib/completion/fresh-completion.zsh --file=completion/_fresh
 fresh zsh-users/zsh-completions src/_gist --file=completion/_gist
