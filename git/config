@@ -26,7 +26,3 @@
   br-del-all-f = "!f(){\
     git branch | grep -v "master" | grep -v ^* | xargs git branch -D;\
   }; f"
-[commit]
-  gpgsign = true
-[gpg]
-  program = gpg
