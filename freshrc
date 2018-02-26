@@ -37,7 +37,6 @@ fresh shell/nvm.sh
 fresh shell/android.sh
 fresh shell/spaceship_config.sh
 fresh shell/reinteractive.sh
-fresh shell/gpg.sh
 fresh shell/elasticsearch.sh
 fresh shell/aliases/\*
 
@@ -60,7 +59,8 @@ fresh-options --file=~/.gitconfig --marker
   fresh git/config
 fresh-options
 
-fresh sivel/speedtest-cli speedtest_cli.py --bin=~/bin/speedtest
+# Setup GPG. including setup GPGKEY to git config
+fresh shell/gpg.sh
 
 ### Vim
 fresh-options --file=~/.vim/vimrc --marker=\"
