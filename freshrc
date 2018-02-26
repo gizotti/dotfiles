@@ -30,6 +30,7 @@ fresh zsh-users/zsh-completions src/_nvm --file=completion/_nvm
 fresh zsh-users/zsh-completions src/_rails --file=completion/_rails
 fresh zsh-users/zsh-completions src/_rspec --file=completion/_rspec
 
+fresh shell/secrets.sh # This file is .gitignored. Create it localy
 fresh shell/path.sh
 fresh shell/ruby_version_manager.sh
 fresh shell/nvm.sh

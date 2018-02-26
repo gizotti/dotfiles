@@ -1,6 +1,7 @@
 [user]
   email = gabriel@gizotti.com
   name = Gabriel Gizotti
+  signinkey = "\$GPGKEY\"
 [color]
   ui = auto
 [push]
@@ -11,7 +12,6 @@
   excludesfile = /Users/gabrielgizotti/.gitignore_global
 [difftool "sourcetree"]
   cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-  path =
 [mergetool "sourcetree"]
   cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
   trustExitCode = true
@@ -26,3 +26,7 @@
   br-del-all-f = "!f(){\
     git branch | grep -v "master" | grep -v ^* | xargs git branch -D;\
   }; f"
+[commit]
+  gpgsign = true
+[gpg]
+  program = gpg
