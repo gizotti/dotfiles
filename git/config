@@ -1,7 +1,6 @@
 [user]
   email = gabriel@gizotti.com
   name = Gabriel Gizotti
-  signinkey = !sh -c "echo \"$GPGKEY\""
 [color]
   ui = auto
 [push]
