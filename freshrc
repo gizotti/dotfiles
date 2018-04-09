@@ -8,6 +8,8 @@ fresh shell/zsh/options
 
 # If in doubt check
 # https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git
+fresh robbyrussell/oh-my-zsh plugins/z/z.sh --file=z.sh
+fresh robbyrussell/oh-my-zsh plugins/z/z.plugin.zsh
 fresh robbyrussell/oh-my-zsh plugins/git/git.plugin.zsh
 fresh robbyrussell/oh-my-zsh plugins/rbenv/rbenv.plugin.zsh
 fresh robbyrussell/oh-my-zsh lib/functions.zsh
