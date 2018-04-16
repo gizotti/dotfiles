@@ -40,6 +40,7 @@ Plug 'elixir-lang/vim-elixir'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'neovimhaskell/haskell-vim'
 Plug 'joukevandermaas/vim-ember-hbs'
+Plug 'ElmCast/elm-vim'
 " Plug 'shougo/neocomplete.vim'
 
 " Add plugins to &runtimepath
