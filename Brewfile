@@ -1,5 +1,6 @@
-# brew "nvim/nvim/nvim"
-# Install vim manually
+cask_args appdir: "/Applications"
+
+tap "caskroom/cask"
 
 brew "coreutils"
 brew "ctags"
@@ -25,6 +26,7 @@ brew "unrar"
 brew "wget"
 brew "zsh"
 brew "nvm"
+brew "vim"
 
 cask "1password"
 cask "caffeine"
