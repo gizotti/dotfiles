@@ -38,7 +38,6 @@ fresh shell/ruby_version_manager.sh
 fresh shell/nvm.sh
 fresh shell/android.sh
 fresh shell/spaceship_config.sh
-fresh shell/reinteractive.sh
 fresh shell/elasticsearch.sh
 fresh shell/aliases/\*
 
