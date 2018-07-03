@@ -1,4 +1,4 @@
-let g:tcommentMapLeader1 = ''
+let g:t_comment_map_leader_1 = ''
 
 noremap <silent> <C-c> :TComment<cr>
 vnoremap <silent> <C-c> :TCommentMaybeInline<cr>gv
