@@ -40,6 +40,8 @@ fresh shell/android.sh
 fresh shell/spaceship_config.sh
 fresh shell/elasticsearch.sh
 fresh shell/direnv.sh
+fresh shell/mysql.sh
+fresh shell/buildkite.sh
 fresh shell/aliases/\*
 
 # General config files
