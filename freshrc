@@ -57,6 +57,7 @@ fresh-options --file=~/.gitignore_global --marker
   fresh github/gitignore Global/Vim.gitignore
   fresh github/gitignore Global/macOS.gitignore
   fresh github/gitignore Global/Tags.gitignore
+  fresh git/my.gitignore
 fresh-options
 
 fresh-options --file=~/.gitconfig --marker
