@@ -35,11 +35,8 @@ fresh zsh-users/zsh-completions src/_nvm --file=completion/_nvm
 fresh zsh-users/zsh-completions src/_rails --file=completion/_rails
 fresh zsh-users/zsh-completions src/_rspec --file=completion/_rspec
 
-# ASDF
-fresh asdf-vm/asdf asdf.sh
-fresh asdf-vm/asdf completions/asdf.bash
-
 fresh shell/path.sh
+fresh shell/asdf.sh
 fresh shell/spaceship_config.sh
 fresh shell/elasticsearch.sh
 fresh shell/direnv.sh
