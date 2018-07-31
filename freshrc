@@ -40,9 +40,6 @@ fresh asdf-vm/asdf asdf.sh
 fresh asdf-vm/asdf completions/asdf.bash
 
 fresh shell/path.sh
-fresh shell/ruby_version_manager.sh
-fresh shell/nvm.sh
-fresh shell/android.sh
 fresh shell/spaceship_config.sh
 fresh shell/elasticsearch.sh
 fresh shell/direnv.sh
