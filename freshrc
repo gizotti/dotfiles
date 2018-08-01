@@ -49,8 +49,10 @@ fresh-options --file
   fresh config/irbrc
   fresh config/gemrc
   fresh config/rspec
-  fresh config/osx
+  fresh config/default-gems
+  fresh config/asdfrc
 fresh-options
+fresh config/bundle --file=~/.bundle/config
 
 # Git
 fresh-options --file=~/.gitignore_global --marker
