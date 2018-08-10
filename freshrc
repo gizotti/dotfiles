@@ -52,7 +52,6 @@ fresh-options --file
   fresh config/default-gems
   fresh config/asdfrc
 fresh-options
-fresh config/bundle --file=~/.bundle/config
 
 # Git
 fresh-options --file=~/.gitignore_global --marker
