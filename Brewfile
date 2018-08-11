@@ -23,6 +23,7 @@ brew "unrar"
 brew "wget"
 brew "zsh"
 brew "vim"
+brew "git-crypt"
 
 cask "1password"
 cask "caffeine"
