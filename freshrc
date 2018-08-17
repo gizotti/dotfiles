@@ -75,6 +75,7 @@ fresh-options --file=~/.vim/vimrc --marker=\"
   fresh vim/theme.vim
   fresh vim/file_types.vim
   fresh vim/splits.vim
+  fresh vim/change_hash_syntax.vim
   fresh vim/whitespace_cleanup.vim
   fresh vim/globals.vim
 
