@@ -7,7 +7,7 @@ fresh shell/zsh/completion/init
 fresh shell/zsh/options
 
 # Shell secrets
-fresh git@github.com:gizotti/env-secrets.git secrets.sh
+fresh git@gitlab.com:gizotti/env-secrets.git secrets.sh
 
 # If in doubt check
 # https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git
