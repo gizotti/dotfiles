@@ -13,16 +13,11 @@ fresh git@gitlab.com:gizotti/env-secrets.git secrets.sh
 # https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git
 fresh robbyrussell/oh-my-zsh plugins/z/z.sh --file=z.sh
 fresh robbyrussell/oh-my-zsh plugins/z/z.plugin.zsh
-fresh robbyrussell/oh-my-zsh plugins/git/git.plugin.zsh
-fresh robbyrussell/oh-my-zsh plugins/rbenv/rbenv.plugin.zsh
 fresh robbyrussell/oh-my-zsh lib/functions.zsh
 fresh robbyrussell/oh-my-zsh lib/completion.zsh
 fresh robbyrussell/oh-my-zsh lib/directories.zsh
-fresh robbyrussell/oh-my-zsh lib/git.zsh
 fresh robbyrussell/oh-my-zsh lib/key-bindings.zsh
 fresh robbyrussell/oh-my-zsh lib/misc.zsh
-fresh robbyrussell/oh-my-zsh lib/grep.zsh
-fresh robbyrussell/oh-my-zsh lib/nvm.zsh
 fresh robbyrussell/oh-my-zsh lib/spectrum.zsh
 fresh robbyrussell/oh-my-zsh lib/theme-and-appearance.zsh
 fresh denysdovhan/spaceship-prompt sections --file=sections/
@@ -31,8 +26,6 @@ fresh denysdovhan/spaceship-prompt spaceship.zsh
 
 fresh freshshell/fresh contrib/completion/fresh-completion.zsh --file=completion/_fresh
 fresh zsh-users/zsh-completions src/_gist --file=completion/_gist
-fresh zsh-users/zsh-completions src/_nvm --file=completion/_nvm
-fresh zsh-users/zsh-completions src/_rails --file=completion/_rails
 fresh zsh-users/zsh-completions src/_rspec --file=completion/_rspec
 
 fresh shell/path.sh
