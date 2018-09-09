@@ -7,7 +7,7 @@
   default = simple
 [core]
   ignorecase = false
-  editor = vim
+  editor = code --wait
   excludesfile = /Users/gabrielgizotti/.gitignore_global
 [difftool "sourcetree"]
   cmd = opendiff \"$LOCAL\" \"$REMOTE\"
