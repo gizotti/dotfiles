@@ -32,6 +32,7 @@ fresh shell/elasticsearch.sh
 fresh shell/direnv.sh
 fresh shell/mysql.sh
 fresh shell/buildkite.sh
+fresh shell/java_home.sh
 fresh shell/aliases/\*
 
 # General config files
