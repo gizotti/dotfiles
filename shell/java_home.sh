@@ -1,1 +1,1 @@
-source '/Users/gabrielgizotti/.asdf/plugins/java/bin/asdf-java-wrapper'
+export JAVA_HOME=$(/usr/libexec/java_home)
