@@ -37,7 +37,7 @@ Plug 'tpope/vim-rhubarb'
 Plug 'tpope/vim-surround'
 Plug 'vim-ruby/vim-ruby'
 Plug 'vim-scripts/matchit.zip'
-Plug 'thiagoalessio/rainbow_levels'
+Plug 'thiagoalessio/rainbow_levels.vim'
 
 " Add plugins to &runtimepath
 call plug#end()

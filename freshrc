@@ -30,6 +30,7 @@ fresh shell/direnv.sh
 fresh shell/mysql.sh
 fresh shell/java_home.sh
 fresh shell/hitch.sh
+fresh shell/local_config.sh
 fresh shell/aliases/\*
 
 # General config files
