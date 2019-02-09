@@ -1,3 +1,2 @@
-# My personal gitignore
 vendor/cache/jaro_winkler-1.5.1-x86_64-darwin-17.gem
 .tool-versions

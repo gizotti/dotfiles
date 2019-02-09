@@ -31,16 +31,12 @@ fresh shell/spaceship_config.sh
 fresh shell/elasticsearch.sh
 fresh shell/direnv.sh
 fresh shell/mysql.sh
-fresh shell/buildkite.sh
 fresh shell/java_home.sh
-fresh shell/envato.sh
 fresh shell/hitch.sh
 fresh shell/aliases/\*
 
 # General config files
 fresh-options --file
-  fresh config/irbrc
-  fresh config/gemrc
   fresh config/rspec
   fresh config/default-gems
   fresh config/asdfrc
