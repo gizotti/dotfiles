@@ -1,5 +1,7 @@
 filetype plugin indent on
 
+:let mapleader=","
+
 " Disable annoying beep
 set visualbell
 

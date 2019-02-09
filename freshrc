@@ -6,9 +6,6 @@ fresh freshshell/fresh contrib/source-build.sh --file=~/.zshrc
 fresh shell/zsh/completion/init
 fresh shell/zsh/options
 
-# Shell secrets
-fresh git@gitlab.com:gizotti/env-secrets.git secrets.sh
-
 # If in doubt check
 # https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git
 fresh robbyrussell/oh-my-zsh plugins/z/z.sh --file=z.sh
@@ -54,21 +51,18 @@ fresh-options --file=~/.gitconfig --marker
   fresh git/config
 fresh-options
 
-# Setup GPG. including setup GPGKEY to git config
-fresh shell/gpg.sh
-
 ### Vim
 fresh-options --file=~/.vim/vimrc --marker=\"
   fresh vim/plug.vim
+  fresh vim/globals.vim
   fresh vim/plugins/\*
   fresh vim/theme.vim
   fresh vim/file_types.vim
   fresh vim/splits.vim
   fresh vim/change_hash_syntax.vim
   fresh vim/whitespace_cleanup.vim
-  fresh vim/globals.vim
-
-  fresh jasoncodes/dotfiles vim/config/auto_mkdir.vim
-  fresh jasoncodes/dotfiles vim/config/undo.vim
+  fresh vim/undo.vim
+  fresh vim/auto_mkdir.vim
 fresh-options
+
 fresh junegunn/vim-plug plug.vim --file=~/.vim/autoload/plug.vim
