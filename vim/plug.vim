@@ -37,7 +37,7 @@ Plug 'tpope/vim-rhubarb'
 Plug 'tpope/vim-surround'
 Plug 'vim-ruby/vim-ruby'
 Plug 'vim-scripts/matchit.zip'
-Plug 'thiagoalessio/rainbow_levels.vim'
+Plug 'nathanaelkane/vim-indent-guides'
 
 " Add plugins to &runtimepath
 call plug#end()
