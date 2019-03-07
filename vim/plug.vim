@@ -34,6 +34,7 @@ Plug 'tpope/vim-surround'
 Plug 'vim-ruby/vim-ruby'
 Plug 'vim-scripts/matchit.zip'
 Plug 'w0rp/ale'
+Plug 'OmniSharp/omnisharp-vim'
 
 " Add plugins to &runtimepath
 call plug#end()
