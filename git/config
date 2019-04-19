@@ -21,7 +21,3 @@
     git branch | grep -v "master" | grep -v ^* | xargs git branch -D;\
   }; f"
   fpush = push --force-with-lease
-[commit]
-  gpgsign = true
-[gpg]
-  program = /usr/local/MacGPG2/bin/gpg2
