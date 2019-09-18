@@ -19,9 +19,6 @@ fresh denysdovhan/spaceship-prompt sections --file=sections/
 fresh denysdovhan/spaceship-prompt lib --file=lib/
 fresh denysdovhan/spaceship-prompt spaceship.zsh
 
-fresh zsh-users/zsh-autosuggestions zsh-autosuggestions.zsh --file=zsh-autosuggestions.zsh
-fresh zsh-users/zsh-autosuggestions zsh-autosuggestions.plugin.zsh
-
 fresh freshshell/fresh contrib/completion/fresh-completion.zsh --file=completion/_fresh
 fresh zsh-users/zsh-completions src/_rspec --file=completion/_rspec
 
