@@ -1,6 +1,0 @@
-alias hanadir='cd ~/Dev/OSS/hanami'
-alias hs='bundle exec hanami server'
-alias hsl='bundle exec hanami server --host=lvm.me'
-alias hc='bundle exec hanami console'
-alias ht='bundle exec rake test'
-alias hg='bundle exec hanami g'

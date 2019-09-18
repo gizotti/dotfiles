@@ -33,9 +33,7 @@ fresh shell/elasticsearch.sh
 fresh shell/direnv.sh
 fresh shell/mysql.sh
 fresh shell/java_home.sh
-fresh shell/hitch.sh
 fresh shell/local_config.sh
-fresh shell/fish-completion.sh
 fresh shell/postgres.sh
 fresh shell/aliases/\*
 

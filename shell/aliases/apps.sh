@@ -1,7 +1,1 @@
-alias wallas='cd ~/Dev/WallasAU/wallas'
-alias mhm='cd ~/Dev/Elevator/the_heart_app_server'
-alias hbt='cd ~/Dev/Elevator/habitat-server'
-alias bmu='cd ~/Dev/Elevator/back_me_up/'
-alias gldevkit='cd ~/Dev/gitlab-development-kit'
-alias gitlab='cd ~/Dev/gitlab-development-kit/gitlab'
 alias dfiles='cd ~/.dotfiles'
