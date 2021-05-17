@@ -21,6 +21,7 @@ fresh zsh-users/zsh-completions src/_rspec --file=completion/_rspec
 fresh shell/path.sh
 fresh shell/asdf.sh
 fresh shell/fzf.sh
+fresh shell/starship.sh
 fresh shell/elasticsearch.sh
 fresh shell/direnv.sh
 fresh shell/mysql.sh
@@ -34,6 +35,7 @@ fresh-options --file
   fresh config/rspec
   fresh config/default-gems
   fresh config/asdfrc
+  fresh config/starship
 fresh-options
 
 # Git
