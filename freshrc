@@ -36,6 +36,7 @@ fresh-options --file
   fresh config/default-gems
   fresh config/asdfrc
   fresh config/starship
+  fresh config/hyper.js
 fresh-options
 
 # Git
