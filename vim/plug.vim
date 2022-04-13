@@ -10,7 +10,6 @@ call plug#begin('~/.vim/plugged')
 Plug 'ElmCast/elm-vim'
 Plug 'Lokaltog/vim-easymotion'
 Plug 'airblade/vim-gitgutter'
-Plug 'altercation/vim-colors-solarized'
 Plug 'bling/vim-airline'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'danro/rename.vim'
