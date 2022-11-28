@@ -7,13 +7,13 @@ fresh shell/zsh/completion/init
 fresh shell/zsh/options
 
 # If in doubt check
-# https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git
-fresh robbyrussell/oh-my-zsh plugins/z/z.sh --file=z.sh
-fresh robbyrussell/oh-my-zsh plugins/z/z.plugin.zsh
-fresh robbyrussell/oh-my-zsh lib/functions.zsh
-fresh robbyrussell/oh-my-zsh lib/completion.zsh
-fresh robbyrussell/oh-my-zsh lib/spectrum.zsh
-fresh robbyrussell/oh-my-zsh lib/theme-and-appearance.zsh
+# https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git/
+fresh ohmyzsh/ohmyzsh plugins/z/z.sh --file=z.sh
+fresh ohmyzsh/ohmyzsh plugins/z/z.plugin.zsh
+fresh ohmyzsh/ohmyzsh lib/functions.zsh
+fresh ohmyzsh/ohmyzsh lib/completion.zsh
+fresh ohmyzsh/ohmyzsh lib/spectrum.zsh
+fresh ohmyzsh/ohmyzsh lib/theme-and-appearance.zsh
 
 fresh freshshell/fresh contrib/completion/fresh-completion.zsh --file=completion/_fresh
 fresh zsh-users/zsh-completions src/_rspec --file=completion/_rspec
