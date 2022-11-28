@@ -8,7 +8,7 @@ fresh shell/zsh/options
 
 # If in doubt check
 # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git/
-fresh ohmyzsh/ohmyzsh plugins/z/z.sh --file=z.sh
+fresh ohmyzsh/ohmyzsh plugins/z/_z --file=z.sh
 fresh ohmyzsh/ohmyzsh plugins/z/z.plugin.zsh
 fresh ohmyzsh/ohmyzsh lib/functions.zsh
 fresh ohmyzsh/ohmyzsh lib/completion.zsh
