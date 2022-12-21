@@ -1,6 +1,6 @@
 # Jon changed fresh bin so git shallow pulls repos
 fresh freshshell/fresh bin/fresh --bin=~/bin/fresh
-fresh freshshell/fresh contrib/source-build.sh --file=~/.zshenv
+fresh freshshell/fresh contrib/source-build.sh --file=~/.zshrc
 
 # Shell
 fresh shell/zsh/completion/init
