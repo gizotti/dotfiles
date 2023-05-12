@@ -1,1 +1,1 @@
-export PATH="/usr/local/opt/elasticsearch@2.4/bin:$PATH"
+export PATH="$(brew --prefix)/opt/elasticsearch@2.4/bin:$PATH"

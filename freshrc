@@ -24,11 +24,9 @@ fresh shell/fzf.sh
 fresh shell/starship.sh
 fresh shell/elasticsearch.sh
 fresh shell/direnv.sh
-fresh shell/mysql.sh
 fresh shell/java_home.sh
 fresh shell/local_config.sh
 fresh shell/objc.sh
-fresh shell/postgres.sh
 fresh shell/aliases/\*
 
 # General config files
