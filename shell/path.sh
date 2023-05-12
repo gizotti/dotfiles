@@ -14,7 +14,7 @@ append_path "/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 append_path "/usr/local/opt/go/libexec/bin"
 append_path "/usr/local/opt/coreutils/libexec/gnubin"
 append_path "/.local/bin"
-appent_path "/opt/homebrew/bin"
+append_path "/opt/homebrew/bin"
 
 unset append_path
 unset prepend_path
