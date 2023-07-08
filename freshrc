@@ -29,6 +29,7 @@ fresh shell/local_config.sh
 fresh shell/objc.sh
 fresh shell/aws_vault.sh
 fresh shell/android.sh
+fresh shell/libpq.sh
 fresh shell/aliases/\*
 
 # General config files
