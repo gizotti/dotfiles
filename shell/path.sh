@@ -15,7 +15,5 @@ append_path "$(brew --prefix)/opt/go/libexec/bin"
 append_path "$(brew --prefix)/opt/coreutils/libexec/gnubin"
 append_path "/.local/bin"
 
-prepend_path "$(brew --prefix)/opt/libpq/bin"
-
 unset append_path
 unset prepend_path
