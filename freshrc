@@ -30,6 +30,7 @@ fresh shell/objc.sh
 fresh shell/aws_vault.sh
 fresh shell/android.sh
 fresh shell/go.sh
+fresh shell/rust.sh
 fresh shell/aliases/\*
 
 # General config files
