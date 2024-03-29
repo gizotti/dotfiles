@@ -27,7 +27,6 @@ fresh shell/direnv.sh
 fresh shell/java_home.sh
 fresh shell/local_config.sh
 fresh shell/objc.sh
-fresh shell/aws_vault.sh
 fresh shell/android.sh
 fresh shell/go.sh
 fresh shell/rust.sh

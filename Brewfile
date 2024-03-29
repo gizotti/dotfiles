@@ -1,20 +1,32 @@
-cask_args appdir: "/Applications"
+cask_args appdir: '/Applications'
 
-tap "heroku/brew"
+tap 'heroku/brew'
 
-brew "asdf"
-brew "coreutils"
-brew "ctags"
-brew "curl"
-brew "direnv"
-brew "fzf"
-brew "git"
-brew "heroku"
-brew "htop"
-brew "hub"
-brew "the_silver_searcher"
-brew "tldr"
-brew "nvim"
-brew "wget"
-brew "zsh"
-brew "starship"
+brew 'asdf'
+brew 'coreutils'
+brew 'ctags'
+brew 'curl'
+brew 'direnv'
+brew 'fzf'
+brew 'git'
+brew 'heroku'
+brew 'htop'
+brew 'hub'
+brew 'make'
+brew 'nvim'
+brew 'ripgrep'
+brew 'rustup-init'
+brew 'starship'
+brew 'the_silver_searcher'
+brew 'tldr'
+brew 'unzip'
+brew 'wget'
+brew 'zsh'
+
+cask 'captain'
+cask 'docker'
+cask 'numi'
+cask 'rectangle'
+cask 'the-unarchiver'
+cask 'visual-studio-code'
+cask 'warp'
