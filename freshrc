@@ -52,19 +52,3 @@ fresh-options
 fresh-options --file=~/.gitconfig --marker
   fresh git/config
 fresh-options
-
-### Vim
-fresh-options --file=~/.vimrc --marker=\"
-  fresh vim/plug.vim
-  fresh vim/globals.vim
-  fresh vim/plugins/\*
-  fresh vim/theme.vim
-  fresh vim/file_types.vim
-  fresh vim/splits.vim
-  fresh vim/change_hash_syntax.vim
-  fresh vim/whitespace_cleanup.vim
-  fresh vim/undo.vim
-  fresh vim/auto_mkdir.vim
-fresh-options
-
-fresh junegunn/vim-plug plug.vim --file=~/.vim/autoload/plug.vim
