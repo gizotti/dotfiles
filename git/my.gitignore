@@ -1,2 +1,3 @@
 .tool-versions
 .envrc
+~/.local_config.sh
