@@ -49,6 +49,13 @@ fresh-options --file=~/.gitignore_global --marker
   fresh git/my.gitignore
 fresh-options
 
-fresh-options --file=~/.gitconfig --marker
-  fresh git/config
-fresh-options
+
+if [[ "$(hostname -s)" == "Gabe-Shiftcare-MacBook-Pro" ]]; then
+  fresh-options --file=~/.gitconfig --marker
+    fresh git/config.work
+  fresh-options
+else
+  fresh-options --file=~/.gitconfig --marker
+    fresh git/config
+  fresh-options
+fi
