@@ -5,6 +5,7 @@ tap 'puma/puma'
 
 brew 'asdf'
 brew 'bat'
+brew 'cocoapods'
 brew 'coreutils'
 brew 'ctags'
 brew 'curl'

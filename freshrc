@@ -21,6 +21,7 @@ fresh zsh-users/zsh-completions src/_rspec --file=completion/_rspec
 fresh shell/path.sh
 fresh shell/asdf.sh
 fresh shell/aws.sh
+fresh shell/encoding.sh
 fresh shell/fzf.sh
 fresh shell/starship.sh
 fresh shell/elasticsearch.sh
