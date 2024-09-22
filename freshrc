@@ -39,6 +39,7 @@ fresh shell/aliases/\*
 fresh-options --file
   fresh config/rspec
   fresh config/default-gems
+  fresh config/default-npm-packages
   fresh config/asdfrc
   fresh config/starship
 fresh-options
