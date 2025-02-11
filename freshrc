@@ -19,7 +19,6 @@ fresh freshshell/fresh contrib/completion/fresh-completion.zsh --file=completion
 fresh zsh-users/zsh-completions src/_rspec --file=completion/_rspec
 
 fresh shell/path.sh
-fresh shell/asdf.sh
 fresh shell/aws.sh
 fresh shell/encoding.sh
 fresh shell/fzf.sh
@@ -27,7 +26,6 @@ fresh shell/starship.sh
 fresh shell/direnv.sh
 fresh shell/java_home.sh
 fresh shell/local_config.sh
-fresh shell/objc.sh
 fresh shell/android.sh
 fresh shell/go.sh
 fresh shell/rust.sh
