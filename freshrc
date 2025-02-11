@@ -18,6 +18,7 @@ fresh ohmyzsh/ohmyzsh lib/theme-and-appearance.zsh
 fresh freshshell/fresh contrib/completion/fresh-completion.zsh --file=completion/_fresh
 fresh zsh-users/zsh-completions src/_rspec --file=completion/_rspec
 
+fresh shell/brew.sh
 fresh shell/path.sh
 fresh shell/aws.sh
 fresh shell/encoding.sh
@@ -50,13 +51,6 @@ fresh-options --file=~/.gitignore_global --marker
   fresh git/my.gitignore
 fresh-options
 
-
-if [[ "$(hostname -s)" == "Gabe-Shiftcare-MacBook-Pro" ]]; then
-  fresh-options --file=~/.gitconfig --marker
-    fresh git/config.work
-  fresh-options
-else
-  fresh-options --file=~/.gitconfig --marker
-    fresh git/config
-  fresh-options
-fi
+fresh-options --file=~/.gitconfig --marker
+  fresh git/config
+fresh-options
