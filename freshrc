@@ -18,6 +18,7 @@ fresh ohmyzsh/ohmyzsh lib/theme-and-appearance.zsh
 fresh freshshell/fresh contrib/completion/fresh-completion.zsh --file=completion/_fresh
 fresh zsh-users/zsh-completions src/_rspec --file=completion/_rspec
 
+fresh shell/nix.sh
 fresh shell/brew.sh
 fresh shell/path.sh
 fresh shell/aws.sh
@@ -32,7 +33,6 @@ fresh shell/go.sh
 fresh shell/rust.sh
 fresh shell/nerdfonts.sh
 fresh shell/libpq.sh
-fresh shell/nix.sh
 fresh shell/aliases/\*
 
 # General config files
