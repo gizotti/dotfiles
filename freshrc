@@ -42,6 +42,7 @@ fresh-options --file
   fresh config/default-npm-packages
   fresh config/asdfrc
   fresh config/starship
+  fresh config/direnvrc
 fresh-options
 
 # Git
