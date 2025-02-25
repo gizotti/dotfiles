@@ -18,6 +18,8 @@ fresh ohmyzsh/ohmyzsh lib/theme-and-appearance.zsh
 fresh freshshell/fresh contrib/completion/fresh-completion.zsh --file=completion/_fresh
 fresh zsh-users/zsh-completions src/_rspec --file=completion/_rspec
 
+fresh config/wezterm.lua  --file=~/.config/wezterm/wezterm.lua
+
 fresh shell/nix.sh
 fresh shell/brew.sh
 fresh shell/path.sh
