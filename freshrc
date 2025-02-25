@@ -36,6 +36,7 @@ fresh shell/rust.sh
 fresh shell/nerdfonts.sh
 fresh shell/libpq.sh
 fresh shell/aliases.sh
+fresh shell/editor.sh
 
 # General config files
 fresh-options --file
