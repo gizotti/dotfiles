@@ -35,7 +35,7 @@ fresh shell/go.sh
 fresh shell/rust.sh
 fresh shell/nerdfonts.sh
 fresh shell/libpq.sh
-fresh shell/aliases/\*
+fresh shell/aliases.sh
 
 # General config files
 fresh-options --file

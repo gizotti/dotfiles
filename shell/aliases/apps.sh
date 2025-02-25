@@ -1,1 +1,0 @@
-alias dfiles='cd ~/.dotfiles'
