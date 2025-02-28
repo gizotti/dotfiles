@@ -23,6 +23,7 @@ fresh config/wezterm.lua  --file=~/.config/wezterm/wezterm.lua
 fresh shell/nix.sh
 fresh shell/brew.sh
 fresh shell/path.sh
+fresh shell/asdf.sh
 fresh shell/aws.sh
 fresh shell/encoding.sh
 fresh shell/fzf.sh
