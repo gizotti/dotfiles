@@ -3,7 +3,7 @@ local config = wezterm.config_builder()
 local action = wezterm.action
 
 config.font = wezterm.font({
-	family = "Victor Mono",
+	family = "JetBrains Mono",
 	weight = "Regular",
 	harfbuzz_features = { "calt=1", "clig=1", "liga=1" },
 })
