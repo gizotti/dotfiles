@@ -13,6 +13,7 @@ function prepend_path() {
 append_path "$(brew --prefix)/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 append_path "$(brew --prefix)/opt/go/libexec/bin"
 append_path "$(brew --prefix)/opt/coreutils/libexec/gnubin"
+append_path "$(brew --prefix)/bin"
 
 unset append_path
 unset prepend_path
