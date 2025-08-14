@@ -3,14 +3,14 @@ local config = wezterm.config_builder()
 local action = wezterm.action
 
 config.font = wezterm.font({
-	family = "JetBrains Mono",
+	family = "Victor Mono",
 	weight = "Regular",
 	harfbuzz_features = { "calt=1", "clig=1", "liga=1" },
 })
 config.font_size = 14.0
 config.line_height = 1.0
 
-config.color_scheme = "Catppuccin Mocha (Gogh)"
+config.color_scheme = "Tokyo Night"
 
 config.window_padding = { left = "0.5cell", right = "0.5cell", top = "0.5cell", bottom = "0.5cell" }
 config.default_cursor_style = "BlinkingBar"
