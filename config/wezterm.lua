@@ -16,7 +16,7 @@ config.window_padding = { left = "0.5cell", right = "0.5cell", top = "0.5cell", 
 config.default_cursor_style = "BlinkingBar"
 
 config.window_decorations = "RESIZE|INTEGRATED_BUTTONS"
-config.window_background_opacity = 0.96
+config.window_background_opacity = 0.90
 config.macos_window_background_blur = 20
 
 -- https://github.com/wez/wezterm/issues/3299#issuecomment-2145712082
