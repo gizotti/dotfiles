@@ -30,6 +30,7 @@ brew 'tmux'
 brew 'unzip'
 brew 'wget'
 brew 'zsh'
+brew 'zoxide'
 
 cask 'brave-browser'
 cask 'fork'
