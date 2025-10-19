@@ -116,3 +116,4 @@ source ~/.shell_config/nix.sh
 source ~/.shell_config/path.sh
 source ~/.shell_config/starship.sh
 source ~/.shell_config/zoxide.shell
+source ~/.shell_config/onepassword.sh
