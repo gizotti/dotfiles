@@ -19,6 +19,21 @@ return {
             },
           },
         },
+        eslint = {
+          settings = {
+            workingDirectories = { mode = "auto" },
+            format = true,
+            codeAction = {
+              disableRuleComment = {
+                enable = true,
+                location = "separateLine",
+              },
+              showDocumentation = {
+                enable = true,
+              },
+            },
+          },
+        },
       },
     },
   },
